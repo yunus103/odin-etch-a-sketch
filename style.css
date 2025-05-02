@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.top-container{
+    display: flex;
+    gap: 5px;
+}
+
+.container{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 604px;
+    width: 604px;
+    border: 2px solid #3498db;
+}
+
+/* General Styles */
+input, button {
+    border-radius: 8px;
+    border: 2px solid #3498db; /* Blue border */
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+/* Input Field Styles */
+input {
+    width: 120px;
+    height: 40px; /* Set a fixed height for consistency */
+    font-size: 18px;
+    padding: 0 10px; /* Add some padding for a better appearance */
+    background-color: #f0f8ff; /* Light background */
+    color: #333; /* Dark text color for readability */
+}
+
+input:focus {
+    border-color: #2980b9; /* Darker blue when focused */
+    background-color: #e0f7fa; /* Slightly darker background */
+}
+
+/* Button Styles */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Button Hover State */
+button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+/* Button Active State (click) */
+button:active {
+    background-color: #1c6690; /* Even darker blue on click */
+}
+
+.box{
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    /* height: 37.5px;
+    width: 37.5px; */
+
+}
