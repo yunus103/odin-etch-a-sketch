@@ -12,6 +12,6 @@ An interactive Etch-a-Sketch web application where users can draw by hovering ov
 
 ## Demo
 
-You can try out the app by visiting the live demo (add link if hosted).
+You can try out the app by visiting the live demo.
 
 https://yunus103.github.io/odin-etch-a-sketch/
